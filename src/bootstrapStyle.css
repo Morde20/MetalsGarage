@@ -1,0 +1,116 @@
+.homeDiv{
+    text-align: center;
+}
+
+.mainH1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.secondH1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+.navBg{
+    background-color: #010080;
+}
+
+.logoImg{
+    width: 150px;
+}
+
+.container{
+    text-align: center;
+}
+
+.aboutUsP{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.carouselBg{
+    background-color: #e9ecef;
+}
+
+.slidePic{
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.cardSpacing{
+    margin-top: 50px;
+}
+
+.cardText{
+    text-align: start;
+}
+
+.coWorkersImg{
+    max-width: 400px;
+}
+
+.imgGallery{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+  @media only screen and (max-width: 880px) {
+    /* For desktop: */
+    .imgGallery{
+        grid-template-columns: 1fr;
+    } 
+  }
+
+.particularImg{
+    margin: 10px;
+    width: 350px;
+    height: 300px;
+}
+
+.navLinks{
+    color: white;
+    text-decoration: inherit;
+    margin-right: 20px;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.navLinks:hover{
+    text-decoration: inherit;
+}
+
+.explainedContainer{
+    text-align: center;
+    padding: 20px;
+}
+
+.explainedP{
+    margin: auto;
+    max-width: 600px;
+    margin-top: 40px;
+}
+
+.explainedH1{
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+.explainedH3{
+    margin-top: 30px;
+    text-decoration: underline;
+
+}
+
+h1,h3{
+    font-family: 'Rubik', sans-serif;
+}
+
+p{
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    padding: 20px;
+}
