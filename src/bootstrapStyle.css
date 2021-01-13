@@ -48,7 +48,7 @@
 }
 
 .coWorkersImg{
-    max-width: 400px;
+    max-width: 250px;
 }
 
 .imgGallery{
@@ -67,7 +67,7 @@
 
 .particularImg{
     margin: 10px;
-    width: 350px;
+    max-width: 250px;
     height: 300px;
 }
 
