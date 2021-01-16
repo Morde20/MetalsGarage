@@ -8,10 +8,10 @@ export default function About() {
       <h1 className='mainH1'>מ.ד.א.י - שירותי מיזוג אוויר בע״מ</h1>
       <p>
         חברתנו בעלת נסיון של 20 שנה בתחום מיזוג אוויר לרכב. החברה נותנת שירות
-        באחריות לחברת ''אלכס אוריגינל בע''מ'' ו- ''אוטו קור תעשיות
-        בע''מ'״,קלימטק ועוד. בנוסף אנו מבצעים זיווד ברכבים פרטיים ומסחריים כגון
-        מחיצה, פתחתי חלונות , הוספת מושבים, הוספת מידוף ותאי אחסון ואיטום ובידוד
-        עבור רכבי הובלה בקירור.
+        באחריות לחברת ''אלכס אוריגינל בע''מ'' ו- ''אוטו קור תעשיות בע''מ'״ ועוד.
+        בנוסף אנו מבצעים זיווד ברכבים פרטיים ומסחריים כגון מחיצה, פתחתי חלונות ,
+        הוספת מושבים, הוספת מידוף ותאי אחסון ואיטום ובידוד עבור רכבי הובלה
+        בקירור.
       </p>
       <Carousel className='carouselBg'>
         <Carousel.Item interval={2000}>
@@ -46,6 +46,17 @@ export default function About() {
             <p>מידוף</p>
           </Carousel.Caption>
         </Carousel.Item>
+        <Carousel.Item interval={2000}>
+          <img
+            className='d-block slidePic w-50'
+            src='/img/car12.jpg'
+            alt='Fourth slide'
+          />
+
+          <Carousel.Caption>
+            <p>הובלה בקירור</p>
+          </Carousel.Caption>
+        </Carousel.Item>
       </Carousel>
 
       <h1 className='secondH1'>מוסך מורשה</h1>
@@ -68,7 +79,11 @@ export default function About() {
             <a href='mailto:madi6@bezequint.net'>madi6@bezequint.net</a>
           </p>
           <p className='aboutUsP'>כתובת</p>
-          <p>התעשייה 22 , נשר</p>
+          <p>
+            <a href='https://ul.waze.com/ul?ll=32.77420000%2C35.04389156&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location'>
+              התעשייה 22 , נשר
+            </a>
+          </p>
         </Container>
       </Jumbotron>
     </div>

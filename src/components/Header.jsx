@@ -19,6 +19,9 @@ export default function Header() {
           <Link className='navLinks' to='/Explained'>
             זיווד רכבים
           </Link>
+          <Link className='navLinks' to='/Explained2'>
+            הובלה בקירור{" "}
+          </Link>
           <Link className='navLinks' to='/ContactUs'>
             צור קשר
           </Link>

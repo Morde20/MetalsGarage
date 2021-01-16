@@ -6,6 +6,7 @@ import Home from "./Home";
 import ContactUs from "./ContactUs";
 import GalleryPage from "./GalleryPage";
 import Explained from "./Explained";
+import Explained2 from "./Explained2";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route path='/Explained'>
             <Explained />
+          </Route>
+          <Route path='/Explained2'>
+            <Explained2 />
           </Route>
           <Route path='/ContactUs'>
             <ContactUs />

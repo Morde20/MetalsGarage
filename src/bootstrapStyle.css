@@ -107,10 +107,13 @@
 
 h1,h3{
     font-family: 'Rubik', sans-serif;
+    color: #010080;
+
 }
 
 p{
     font-family: 'Assistant', sans-serif;
     font-size: 24px;
     padding: 20px;
+    color: #010080;
 }

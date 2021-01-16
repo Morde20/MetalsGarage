@@ -18,7 +18,11 @@ export default function ContactUs() {
           <a href='mailto:madi6@bezequint.net'>madi6@bezequint.net</a>
         </p>
         <p className='aboutUsP'>כתובת</p>
-        <p>התעשייה 22 , נשר</p>
+        <p>
+          <a href='https://ul.waze.com/ul?ll=32.77420000%2C35.04389156&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location'>
+            התעשייה 22 , נשר
+          </a>
+        </p>
       </Container>
     </Jumbotron>
   );
