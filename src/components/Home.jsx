@@ -9,9 +9,9 @@ export default function About() {
       <p>
         חברתנו בעלת נסיון של 20 שנה בתחום מיזוג אוויר לרכב. החברה נותנת שירות
         באחריות לחברת ''אלכס אוריגינל בע''מ'' ו- ''אוטו קור תעשיות בע''מ'״ ועוד.
-        בנוסף אנו מבצעים זיווד ברכבים פרטיים ומסחריים כגון מחיצה, פתחתי חלונות ,
-        הוספת מושבים, הוספת מידוף ותאי אחסון ואיטום ובידוד עבור רכבי הובלה
-        בקירור.
+        בנוסף אנו מבצעים זיווד ברכבים מסחריים כגון מחיצה, פתיחת חלונות , הוספת
+        מושבים, הוספת מידוף, תאי אחסון, איטום ובידוד עבור רכבי הובלה בקירור
+        ושינוי מבנה שיעמוד בתקן משרד הרישוי.
       </p>
       <Carousel className='carouselBg'>
         <Carousel.Item interval={2000}>
@@ -21,7 +21,7 @@ export default function About() {
             alt='First slide'
           />
           <Carousel.Caption>
-            <p>דיגום רכב מסחרי</p>
+            <p style={{ color: "white" }}>דיגום רכב מסחרי</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={2000}>
@@ -32,7 +32,7 @@ export default function About() {
           />
 
           <Carousel.Caption>
-            <p>זיווד רכב מסחרי</p>
+            <p style={{ color: "white" }}>זיווד רכב מסחרי</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={2000}>
@@ -43,7 +43,7 @@ export default function About() {
           />
 
           <Carousel.Caption>
-            <p>מידוף</p>
+            <p style={{ color: "white" }}>מידוף</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={2000}>
@@ -54,12 +54,12 @@ export default function About() {
           />
 
           <Carousel.Caption>
-            <p>הובלה בקירור</p>
+            <p style={{ color: "white" }}>הובלה בקירור</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
 
-      <h1 className='secondH1'>מוסך מורשה</h1>
+      <h1 className='secondH1'>מוסך מורשה - רשיון מס׳ 5227</h1>
 
       <img className='coWorkersImg' src='/img/alexoriginal.png' alt='' />
       <img className='coWorkersImg' src='/img/autocool.jpeg' alt='' />
